@@ -9,8 +9,8 @@ const Home = () => {
   console.log(doctors);
   return (
     <main className="text-center mt-2 vh-100">
-      <h1>Mert & Melis Hospital</h1>
-      <Doctors />
+      <h1 className="display-5 text-danger">Mert & Melis Hospital</h1>
+      <Doctors doctors={doctors} />
       <Appointment />
     </main>
   );
