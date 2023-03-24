@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
-function AddModal({
+export function AddModal({
   show,
   handleClose,
   drName,
@@ -68,5 +68,3 @@ function AddModal({
     </>
   );
 }
-
-export default AddModal;
